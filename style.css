@@ -1,0 +1,121 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+#header {
+    color:rgb(63, 59, 175);
+    padding:10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#highScoreBtn {
+    border-radius: 20px;
+    font-size: medium;
+    padding: 1%;
+    background-color: rgb(47, 96, 189);
+    color: white;
+}
+
+#highScoreBtn:hover {
+    color: rgb(27, 22, 162);
+    cursor: pointer;
+}
+
+.highscoreBox {
+    border: 5px solid rgb(27, 22, 162);
+    font-size: 25px;
+    text-decoration: underline;
+    height: 15vh;
+    margin-left: 8%;
+    width: 65%;
+    display: none;
+}
+
+.style {
+    display: flex;
+}
+
+.timer {
+padding-left: 75%;
+}
+
+h1, h2{
+    text-align: center;
+    color:rgb(8, 7, 3);
+}
+
+.instructions {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(5, 4, 2);
+    font-weight: bolder;
+}
+
+
+#startBtn {
+    border-radius: 20px;
+    font-size: medium;
+    margin-left:45%;
+    padding: 0.8%;
+    margin-top: 2%;
+    background-color: rgb(47, 96, 189);
+    color: white;
+}
+
+#startBtn:hover {
+    color: rgb(27, 22, 162);
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 5%;
+}
+
+ol {
+   font-size:larger;
+   font-weight: bolder;
+   color: rgb(27, 22, 162);
+   border: 5px solid rgb(47, 96, 189);
+   height: 30vh;
+   width: 45vh;
+   padding: 25px;
+   margin-left: 35%;
+   margin-top: .8%;
+}
+
+ol:hover {
+    color:rgb(27, 22, 162);
+    cursor: pointer;
+}
+
+main div, form {
+    text-align: center;
+    padding-right: 45px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(68, 14, 58);
+}
+
+
+#submit {
+    border-radius: 20px;
+    font-size: medium;
+    padding: .8%;
+    background-color: rgb(68, 14, 58);
+    color: white
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(68, 14, 58);
+}
+
+li {
+    font-size: 18px;
+    color: rgb(68, 14, 58);
+}
+
