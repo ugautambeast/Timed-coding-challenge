@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Timed Coding Quiz</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+    <!-- Header buttons highscore and timer -->
+      <header id="header">
+            <div class = "style">
+               <button type ="button" id = "highScoreBtn">View Highscores</button>
+                <div class="timer">
+                 <p>Time Left: <span id="countdown">1:00</span>
+                </div>
+         </header>
+         <div>
+    <!-- Highscore Box -->
+    <section class="highscoreBox" id="highscorePage">
+        <h3>Scores:</h3>
+            <ul id = "highscoreHistory"></ul>
+ </section>
+<!-- Quiz box with questions and answers -->
+<section class="quizBox" id="quizPage">
+    <h1>Coding Quiz Challenge</h1>
+     <h1 class="instructions">Try to answer the following code-related questions within the time 
+        limit. 
+     <br>
+    Keep in mind any incorrect answer will penalize your time by 5 seconds!</h1>
+    <button type = "button" id = "startBtn">Start Quiz</button>
+    <div id = "quizQuestions">
+     <div id = "quizAnswers">
+</div>
+</section>
+<!-- Highscore Form -->
+<div id="scoreForm">
+<main>
+<div>
+Enter your initials below to save your score!
+</div>  
+</main>
+    <form>
+    <input type = "text" name = "name" id = "name" placeholder= "name" />
+    <button type = "submit" id = "submit">Submit</button>
+<script async src="script.js"></script>
+</body>
+</html>
